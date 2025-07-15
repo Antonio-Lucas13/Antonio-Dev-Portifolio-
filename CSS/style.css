@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F8F9FA;
+}
+
+nav {
+  color: #1A1A1A;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: Bebas Neue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  padding: 0;
+  width: 40rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #2E2E2E;
+  display: flex;
+  font-family: Bebas Neue;
+  flex-wrap: wrap;
+}
+
+.container a:hover{
+  border-bottom:1px solid #838383 ;
+}
+
+h2{
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+.about-me {
+  background-color: #efefef;
+  height: 30rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.about-me p {
+  font-size: 1.5rem;
+  color: #2E2E2E;
+}
+
+.project {
+  height: 25rem;
+  background:linear-gradient(to right, #F8F9FA 50%, #efefef 50%);
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.project h2 {
+  align-items: center;
+}
+
+.projects h3 {
+  font-size: 2rem;
+}
+
+.projects {
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects a{
+  text-decoration: none;
+  color: #4a90e2;
+}
+
+.projects a:hover {
+  border-bottom: 1px solid #4a90e2;
+}
+
+.notes {
+  padding: 10px;
+  margin-left: -2.5rem;
+  width: 45%;
+  background-color: #efefef;
+}
+
+.notes p{
+font-size: 1rem;
+}
+
+.senha {
+  padding: 10px ;
+  width: 45%;
+  background-color: #fafafa;
+}
+
+
+.senha p {
+font-size: 1rem;
+}
+
+.skills {
+  background-color: #efefef;
+  height: 20rem;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+}
+
+.skills span {
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+.skills li {
+  font-size: 20px;
+}
+
+#contact {
+  margin-top: 6.5rem;
+  height: 100px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #4a90e2;
+  font-size: 10px;
+  display: flex;
+  align-self: center;
+  padding-top: 10px;
+}
+
+#contact a:hover{
+  border-bottom: 1px solid #838383;
+}
+
+i {
+  padding: 1.5rem;
+  font-size: 2.5rem;
+}
+
+
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1.5s;
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur();
+  transform: translateX(0);
+  transition: all 1s;
+}
