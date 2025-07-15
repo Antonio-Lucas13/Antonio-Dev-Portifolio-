@@ -47,7 +47,7 @@ nav h1 {
 
 h2{
   padding-bottom: 1.5rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .about-me {
@@ -78,9 +78,9 @@ h2{
 }
 
 .projects {
-  padding-left: 1rem;
+  margin-left: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .projects a{
