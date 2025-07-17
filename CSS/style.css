@@ -51,6 +51,7 @@ h2{
 }
 
 .about-me {
+  align-content: center;
   background-color: #efefef;
   height: 35rem;
   margin-top: 2rem;
