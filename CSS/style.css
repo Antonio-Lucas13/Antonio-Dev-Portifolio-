@@ -4,11 +4,11 @@
 }
 
 body {
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 nav {
-  color: #1A1A1A;
+  color: #1a1a1a;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -35,17 +35,17 @@ nav h1 {
 .container a {
   font-size: 20px;
   text-decoration: none;
-  color: #2E2E2E;
+  color: #2e2e2e;
   display: flex;
   font-family: Bebas Neue;
   flex-wrap: wrap;
 }
 
-.container a:hover{
-  border-bottom:1px solid #838383 ;
+.container a:hover {
+  border-bottom: 1px solid #838383;
 }
 
-h2{
+h2 {
   padding-bottom: 1.5rem;
   font-size: 2.5rem;
 }
@@ -60,12 +60,12 @@ h2{
 
 .about-me p {
   font-size: 1.5rem;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .project {
   height: 100%;
-  background:#efefef;
+  background: #efefef;
   margin-top: 2rem;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -84,13 +84,13 @@ h2{
 .projects {
   margin-left: 1rem;
   display: flex;
-  flex-direction:row;
-  flex-wrap:wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-between;
 }
 
-.projects a{
+.projects a {
   text-decoration: none;
   color: #4a90e2;
 }
@@ -113,26 +113,9 @@ h2{
 
 .notes p,
 .senha p,
-.qr-code,
-.instagram{
-  background-color: #efefef;
-  border-radius: 5px;
-}
-
-.notes p{
-font-size: 1rem;
-}
-
-.senha {
-  padding: 10px ;
-  width: 45%;
-  background-color: #fafafa;
-  border-radius: 5px;
-}
-
-
-.senha p {
-font-size: 1rem;
+.qr-code p,
+.instagram p {
+  font-size: 1rem;
 }
 
 .skills {
@@ -169,7 +152,7 @@ font-size: 1rem;
   padding-top: 10px;
 }
 
-#contact a:hover{
+#contact a:hover {
   border-bottom: 1px solid #838383;
 }
 
@@ -177,8 +160,6 @@ i {
   padding: 1.5rem;
   font-size: 2.5rem;
 }
-
-
 
 .hidden {
   opacity: 0;
